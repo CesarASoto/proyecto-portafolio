@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+/* Header */
+header{
+    background: linear-gradient(60deg, lightblue, lightpink);
+    position: fixed;
+    width: 100%;    
+}
+.cont-nav-header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 80px;
+}
+.cont-nav-header li{
+    list-style: none;
+    margin: 20px;
+    padding: 15px;
+}
+.cont-nav-header a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+}
+.nav-style {
+    background-color: beige;
+    border-radius: 50px;
+}
+/* Introduction section*/
+.intro-section{
+    background-color: rgb(231, 195, 229);
+    margin: 0px 100px;
+    height: 100vh;
+}
+.cont-introduction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(215, 230, 240);
+}
+.intro-items {
+    display: flex;
+    flex-direction: column;
+}
+.intro-items button {
+    background-color: beige;
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    margin: 15px 0px;
+    width: 150px;  
+}
+.cont-photo img{
+    width: 400px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 25px 0px;
+}
+a {
+    text-decoration: none;
+}
+/* knowledge section */
+.knowledge-section{
+    background-color: rgb(234, 241, 241);
+    margin: 0px 100px;
+    height: 100vh;
+}
+.cont-knowledge-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px
+    }
+
+.skill-item {
+    height: 90px;
+    width: 90px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    height: 190px;   
+    width: 150px;
+}
+.skill-title {
+    text-align: center;
+    margin: 15px 0px;
+}
+.knowledge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+}
+.knowledge-section{
+    display: flex;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+}

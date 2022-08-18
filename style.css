@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+nav{
+    background-color:aqa;
+    padding: 0px;
+    margin: 0px;
+    }
+   
+.conteiner-nav{
+    display: flex;
+    padding: 10px;    
+    margin: 10px;
+    background-color: eige;
+    list-style: none;
+    justify-content: end;
+    text-transform: uppercase;
+}
+.conteiner-nav li{
+    margin: 20px;
+}
+.conteiner-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inicio{
+    padding: 20px;
+    
+}
+img{
+    height: 400px;
+    width: 400px;
+}
